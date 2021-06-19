@@ -103,16 +103,58 @@
     border: none;
 }
 
+
+.ad {
+    position: relative;
+    display: inline-block;
+}
+
 #ad_background {
     width: 204px;
     height: 300px;
 }
 
-/* #ad_ninja {
-    width: 90px;
-    height: 90px;
-    float: left;
-} */
+.ad p {
+    position: absolute;
+    text-align: center;
+    /* z-index: 1; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    width: 90%;
+    font-size: 24px;
+    color: white;
+}
+
+#ad_ninja {
+    position: absolute;
+    text-align: canter;
+    /* z-index: 2; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+    width: 40%;
+    
+}
+
+.ad button {
+    position: absolute;
+    text-align: canter;
+    /* z-index: 3; */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 80%;
+    width: 90%;
+    height: 30px;
+}
+
+.ad button span {
+    font-size: 8px;
+    vertical-align: middle;
+}
 
 .right_side {
     width: 720px;
@@ -122,14 +164,14 @@
 }
 
 .right_side img {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     margin: 10px 0px 10px 10px;
     display: inline-block;
 }
 
 .right_side h4 {
-    font-size: 12px;
+    font-size: 14px;
     height: 20px;
     line-height: 20px;
     color: cornflowerblue;
@@ -141,7 +183,8 @@
 .right_side div {
     vertical-align: top;
     float: right;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-top: 1px;
 }
 
 .right_side div img {
@@ -154,19 +197,20 @@
 }
 
 .right_side div h6 {
-    font-size: 8px;
+    font-size: 9px;
     display: inline block;
     text-align: right;
     font-weight: normal;
-    padding-top: 2px;
-    /* float: right; */
+    /* padding-top: 2px; */
 }
 
 .right_side div div h3 {
-    font-size: 16px;
+    font-size: 20px;
     color: cornflowerblue;
     text-align: right;
-    /* float: right; */
+    padding: 0;
+    margin-top: 1px;
+    font-family: sans-serif;
 }
 
 .right_side hr {
@@ -239,4 +283,9 @@ img.web_server_image {
     font-weight: bold;
 }
 
+#bottom_frame .span_italic {
+    font-style: italic;
+    color: black;
+    font-weight: normal;
+}
 
