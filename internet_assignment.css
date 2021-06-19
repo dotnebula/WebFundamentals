@@ -1,34 +1,242 @@
 * {
     margin: 0;
     padding: 0;
+    /* outline: 1pt dotted rgb(13, 13, 14); */
 }
 
 #wrapper {
     margin: 0 auto;
     width: 960px;
+    height: 800px;
     background-color: white;
     padding-bottom: 10px;
 }
 
-.header {
-    height: 120px;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+.header img {
+    width: 80px;
+    height: 80px;
     float: left;
 }
 
 .header h1 {
-    height: 90px;
-    text-align: justify;
-    padding-top: 50px;
-    font-size: 30;
-    font-family: sans-serif;
+    height: 70px;
+    line-height: 80px;
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+.header h1 span {
+    color: cornflowerblue;
 }
 
 .header h2 {
-    height: 60;
+    text-align: left;
+    height: 48px;
+    background-image: linear-gradient(rgb(3, 113, 154), rgb(124, 144, 177), rgb(3, 113, 154));
+    font-size: 30px;
+    color: white;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-top: 10px;
 }
+
+.main {
+    background-image: linear-gradient(rgba(212, 214, 218, 0.201), white, white, white, white);
+}
+
+.left_side {
+    width: 204px;
+    height: 600px;
+    display: inline-block;
+}
+
+.left_side h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 15px;
+}
+
+.left_side h3 span {
+    color: red;
+}
+
+.left_side p {
+    font-size: 15px;
+    padding: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.left_side p span {
+    color: cornflowerblue;
+}
+
+.left_side button {
+    height: 40px;
+    padding: 4px;
+    border-radius: 8px;
+    width: 196px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.left_side Button:nth-of-type(1) {
+    background-color: rgb(3, 113, 154);
+    margin-bottom: 5px;
+} 
+
+.left_side Button:nth-of-type(2) {
+    background-color: orange;
+}
+
+.left_side hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: gray;
+    height: 2px;
+    width: 204px;
+    border: none;
+}
+
+#ad_background {
+    width: 204px;
+    height: 300px;
+}
+
+/* #ad_ninja {
+    width: 90px;
+    height: 90px;
+    float: left;
+} */
+
+.right_side {
+    width: 720px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+}
+
+.right_side img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0px 10px 10px;
+    display: inline-block;
+}
+
+.right_side h4 {
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: cornflowerblue;
+    margin: 15px 10px 5px 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right_side div {
+    vertical-align: top;
+    float: right;
+    margin-right: 15px;
+}
+
+.right_side div img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin: auto;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+
+.right_side div h6 {
+    font-size: 8px;
+    display: inline block;
+    text-align: right;
+    font-weight: normal;
+    padding-top: 2px;
+    /* float: right; */
+}
+
+.right_side div div h3 {
+    font-size: 16px;
+    color: cornflowerblue;
+    text-align: right;
+    /* float: right; */
+}
+
+.right_side hr {
+    background-color: gray;
+    height: 2px;
+    margin: 4px;
+    border: none;
+}
+
+.right_side h3 {
+    color: rgb(3, 113, 154);
+    padding: 5px;
+}
+
+.right_side p {
+    padding-left: 5px;
+}
+
+.right_side p span, .right_side ul span, .right_side ol span{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.right_side ul, .right_side ol {
+    padding: 5px 5px 5px 45px;
+}
+
+.right_side ul li, .right_side ol li {
+    margin-bottom: 5px;
+}
+
+img.web_server_image {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#bottom_frame {
+    border: 4px solid cornflowerblue;
+    border-bottom: none;
+    margin-left: 4px;
+}
+
+#bottom_frame img {
+    display: inline-block;
+    height: 100px;
+    width: 110px;
+    padding: 10px;
+}
+
+#bottom_frame div {
+    display: inline-block;
+    width: 546px;
+    margin-top: 10px;
+}
+
+#bottom_frame h3 {
+    display: inline-block;
+    color: rgb(3, 113, 154);
+}
+
+#bottom_frame p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#bottom_frame span{
+    font-weight: bold;
+}
+
+

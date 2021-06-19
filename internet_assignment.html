@@ -9,14 +9,65 @@
 </head>
 
 <body>
-   <div id="wrapper">
-       <div class="header">
-           <img src="images/globe.png" alt="Globe Logo">
-           <h1> The Inter<span>net</span></h1>
-           <h2>The World Wide Web</h1>
-       </div>
+    <div id="wrapper">
 
-   </div> 
+        <div class="header">
+            <img src="images/globe.png" alt="Globe Logo">
+            <h1> The Inter<span>net</span></h1>
+            <h2>The World Wide Web</h2>
+        </div>
+        <div class="main">
+            <div class="left_side">
+                <h3> So, what's an <span>Internet?</span></h3>
+                <p>An <span>Inter</span>connected <span>Net</span>work of computer all around the world!</p>
+                <button>WATCH A VIDEO</button>
+                <button>MORE RESSOURCES</button>
+                <hr>
+                <div>
+                    <img id="ad_background" src="images/ad_background.png" alt="ad background">
+                    <!-- <p>Reinvent your career in just 14 weeks</p> -->
+                    <!-- <img id="ad_ninja" src="images/ninja.png" alt="Dojo Ninja"> -->
+                    <!-- <button>Learn More   >>></button> -->
+                </div>
+            </div>
+
+            <div class="right_side">
+                <img src="images/home.png" alt="Home Logo">
+                <h4>DNS</h4>
+                <div>
+                    <img src="images/phone.png" alt="Phone Logo">
+                    <div>
+                        <h6>Mon - Fri 9 a.m. - 5 p.m. (EST)</h6>
+                        <h3>855.967.3787</h3>
+                        <h6>International +1 617.963.0555</h6>
+                    </div>
+                </div>
+                <hr>
+                <h3>Clients and Servers</h3>
+                <p>Computers connectedto the <span>Web</span> are called <span>clients</span> and <span>servers.</span></p>
+                <ul>
+                    <li><span>Clients</span> are the tipical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span>Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                    <li><span>Servers</span> are computers that store <span>webpages</span>, <span>sites</span>, or <span>apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's browser.</li>
+                </ul>
+                <img class="web_server_image" src="images/client_server.jpg" alt="Client-Server Image">
+                <h3>So What Actually Happens?</h3>
+                <ol>
+                    <li>The browser goes to the <span>DNS server</span> and finds the real address of the <span>server</span> that the website lives on.</li>
+                    <li>the browser sends an <span>HTTP request</span> message to the serverasking it to send a copy of the website to the client.</li>
+                    <li>If the server approves the client's request, the server sends the client a <span>"200 OK" message</span>, which means "Permission granted! Here you go!", and then staarts sending the website's files to the browser as a series of small chanks.</li>
+                    <li>The browser assembles the small chanks into a complete website and displeys it to you!</li>
+                </ol>
+                <div id="bottom_frame">
+                    <img src="images/html.png" alt="The Big Three Logo">
+                    <div>
+                        <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+                        <p>While the server can process information in many different languages, the files that they serve to the client are <span>always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+                        <p>Learn more about the Big 3 <span>here</span>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
 </body>
 
 </html>
